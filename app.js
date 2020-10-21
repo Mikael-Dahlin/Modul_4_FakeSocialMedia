@@ -1,7 +1,7 @@
 // declaration of html variables and fake api
 const mainPostsEl = document.querySelector(".posts");
 const userContainerEl = document.querySelector(".user-container");
-const jsonApi = "http://jsonplaceholder.typicode.com/";
+const jsonApi = "https://jsonplaceholder.typicode.com/";
 
 // fetch all posts and put them into the main body of the site
 fetch(jsonApi + "posts").then((res) => res.json()).then((posts) => {
